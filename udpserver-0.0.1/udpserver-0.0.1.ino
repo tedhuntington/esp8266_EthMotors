@@ -17,7 +17,7 @@ void setup()
   Serial.begin(115200);
   Serial.println();
 
-  WiFi.begin("TedHuntington", "b00bf00d00");
+  WiFi.begin("TedHuntington", "pw");
 
   Serial.print("Connecting");
   while (WiFi.status() != WL_CONNECTED)
